@@ -9,6 +9,7 @@ y=150;
 
 //wholeface
 ellipse(x, y, 150, 150);
+
 //blue face
 fill(100,150,250);
 arc(x,y,150,150,-PI,0);
@@ -24,8 +25,6 @@ arc(x,y+10,150,100,-PI,0);
 noFill();
 arc(x,y+10,110,80,0,PI,OPEN);
 
-
-
 //peoplecenter
 line(x,y+1,x,y+50);
 
@@ -33,6 +32,7 @@ line(x,y+1,x,y+50);
 line(x-30,y,x-75,y-10);
 line(x-30,y+10,x-75,y+10);
 line(x-30,y+20,x-70,y+30);
+
 //right
 line(x+30,y,x+75,y-10);
 line(x+30,y+10,x+75,y+10);
